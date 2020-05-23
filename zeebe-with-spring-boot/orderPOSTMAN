@@ -1,0 +1,18 @@
+Order Service
+
+post -> localhost:8081/order
+
+{
+    "customerId" : "1254",
+	"items": [{
+			"articleId": "article1",
+			"amount": "10"
+		},
+		{
+			"articleId": "article2",
+			"amount": "200"
+		}
+	]
+}
+
+
